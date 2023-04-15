@@ -1,15 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     // declare a two-dimensional array to store materials
-    [SerializeField] private Material[][] blockMaterials;
+    public Material[][] blockMaterials;
 
     // declare an array of strings to store the names of the color folders
-    [SerializeField] private string[] colorFolderNames = { "Blue", "Green", "Pink", "Purple", "Red", "Yellow" };
+    private string[] colorFolderNames = { "Blue", "Green", "Pink", "Purple", "Red", "Yellow" };
 
     // declare an array of strings to store the names of the material files
     private string[] materialNames = { "A", "B", "C", "D" };
@@ -41,6 +42,18 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // Restart the game when the "R" key is pressed
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Restart();
+        }
+    }
+    
+    
+    
+    // Reload the current scene to restart the game
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
