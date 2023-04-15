@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     // declare an array of strings to store the names of the material files
     private string[] materialNames = { "A", "B", "C", "D" };
 
+    private GameObject clickedBlock;
+
     private void Awake()
     {
         InitializeBlockMaterials();
@@ -47,6 +49,12 @@ public class GameManager : MonoBehaviour
         {
             Restart();
         }
+
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            ClickDedector();
+        }
     }
     
     
@@ -55,5 +63,21 @@ public class GameManager : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void ClickDedector()
+    {
+        RaycastHit hit;
+
+        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 80))
+        {
+            Debug.Log(hit.transform.gameObject.GetComponent<Renderer>().material.name);
+
+            clickedBlock = hit.transform.gameObject;
+
+            clickedBlock.GetComponent<BlockSc>().CheckAround();
+            //Destroy(clickedBlock);
+
+        }
     }
 }
