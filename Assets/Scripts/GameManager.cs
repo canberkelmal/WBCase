@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     // declare a two-dimensional array to store materials
     public Material[][] blockMaterials;
+    public int A, B, C;
 
     // declare an array of strings to store the names of the color folders
     private string[] colorFolderNames = { "Blue", "Green", "Pink", "Purple", "Red", "Yellow" };
@@ -34,7 +35,7 @@ public class GameManager : MonoBehaviour
                 string path = "Materials/BlockMaterials/" + colorFolderNames[i] + "/" + materialNames[j]; 
 
                 Material material = Resources.Load<Material>(path);
-                print(material);
+                //print(material);
 
                 blockMaterials[i][j] = material;
             }

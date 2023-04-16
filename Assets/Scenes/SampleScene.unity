@@ -172,8 +172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &856152
@@ -288,8 +289,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &17829356
@@ -467,8 +469,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!1 &50307772
@@ -583,8 +586,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!1 &53328560
@@ -636,8 +640,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &53328563
@@ -752,8 +757,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &91796160
@@ -868,8 +874,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &98400836
@@ -1047,8 +1054,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!1 &133756172
@@ -1234,8 +1242,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &174781895
@@ -1350,8 +1359,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &202975185
@@ -1466,8 +1476,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &215674077
@@ -1582,8 +1593,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &219675486
@@ -1698,8 +1710,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &237657598
@@ -1814,8 +1827,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &247713277
@@ -1930,8 +1944,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &276043428
@@ -2046,8 +2061,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &280832681
@@ -2162,8 +2178,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &328812528
@@ -2493,8 +2510,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &345888445
@@ -2609,8 +2627,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &360000507
@@ -2725,8 +2744,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &377841565
@@ -2841,8 +2861,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &378464053
@@ -3072,8 +3093,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &424804734
@@ -3285,8 +3307,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &458076451
@@ -3401,8 +3424,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &482033633
@@ -3614,8 +3638,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &491210273
@@ -3771,8 +3796,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &510339605
@@ -3887,8 +3913,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &518046473
@@ -4003,8 +4030,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &567119539
@@ -4119,8 +4147,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &599014559
@@ -4235,8 +4264,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &601559302
@@ -4493,8 +4523,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &711133509
@@ -4672,8 +4703,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!1 &724223515
@@ -4725,8 +4757,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &724223518
@@ -4841,8 +4874,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &783659714
@@ -5025,8 +5059,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &807940426
@@ -5141,8 +5176,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &809158207
@@ -5306,8 +5342,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &893613106
@@ -5485,8 +5522,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!1 &974785932
@@ -5538,8 +5576,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &974785935
@@ -5654,8 +5693,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &993457073
@@ -5770,8 +5810,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1042209217
@@ -5886,8 +5927,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1043469216
@@ -6002,8 +6044,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1083743302
@@ -6118,8 +6161,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1090455538
@@ -6234,8 +6278,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1110279091
@@ -6350,8 +6395,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1133469840
@@ -6466,8 +6512,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1146376838
@@ -6582,8 +6629,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1166052788
@@ -6698,8 +6746,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1185152915
@@ -6855,8 +6904,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1201619514
@@ -6971,8 +7021,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1206289894
@@ -7150,8 +7201,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!1 &1219552680
@@ -7203,8 +7255,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1219552683
@@ -7382,8 +7435,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!1 &1248387533
@@ -7435,8 +7489,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1248387536
@@ -7633,8 +7688,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1303286218
@@ -7749,8 +7805,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1349377422
@@ -7947,8 +8004,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1362694613
@@ -8063,8 +8121,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1374653347
@@ -8179,8 +8238,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1391797452
@@ -8295,8 +8355,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1412461521
@@ -8411,8 +8472,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1433699873
@@ -8590,8 +8652,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!1 &1466717535
@@ -8643,8 +8706,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1466717538
@@ -8739,6 +8803,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d75e39524ed244bb4fee982007d97c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  A: 2
+  B: 5
+  C: 7
 --- !u!4 &1472840862
 Transform:
   m_ObjectHideFlags: 0
@@ -8803,8 +8870,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1477205340
@@ -8919,8 +8987,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1487793587
@@ -9035,8 +9104,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1557334256
@@ -9151,8 +9221,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1569277481
@@ -9267,8 +9338,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1574683922
@@ -9383,8 +9455,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1578378791
@@ -9575,8 +9648,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1622974135
@@ -9691,8 +9765,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1655309183
@@ -9807,8 +9882,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1659545033
@@ -9923,8 +9999,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1666231398
@@ -10039,8 +10116,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1669846242
@@ -10155,8 +10233,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1686874818
@@ -10511,8 +10590,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!1 &1737783964
@@ -10564,8 +10644,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1737783967
@@ -10680,8 +10761,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1740860921
@@ -10796,8 +10878,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1755844740
@@ -10912,8 +10995,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1793607218
@@ -11028,8 +11112,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1800919027
@@ -11144,8 +11229,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1807535055
@@ -11260,8 +11346,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1810200636
@@ -11376,8 +11463,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1811582628
@@ -11555,8 +11643,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!1 &1914427087
@@ -11608,8 +11697,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1914427090
@@ -11724,8 +11814,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1924878887
@@ -11840,8 +11931,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1926913209
@@ -11956,8 +12048,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1931765889
@@ -12113,8 +12206,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1949103559
@@ -12229,8 +12323,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1950259887
@@ -12345,8 +12440,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1962464210
@@ -12461,8 +12557,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1969966060
@@ -12618,8 +12715,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &2003979668
@@ -12734,8 +12832,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &2017238757
@@ -12850,8 +12949,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &2087276721
@@ -12966,8 +13066,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &2103870347
@@ -13082,8 +13183,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &2141756052
@@ -13198,8 +13300,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 0}
   colorIndex: 0
-  stateIndex: 3
+  iconIndex: 3
   isChecked: 0
+  isCounted: 0
   sames: []
   rayDistance: 1
 --- !u!65 &2146889839
