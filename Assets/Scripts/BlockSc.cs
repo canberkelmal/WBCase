@@ -38,13 +38,8 @@ public class BlockSc : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.DrawRay(transform.position, Vector3.right, Color.red);
-        Debug.DrawRay(transform.position, Vector3.up, Color.red);
-        Debug.DrawRay(transform.position, Vector3.down, Color.red);
-        Debug.DrawRay(transform.position, Vector3.left, Color.red);
+        //DrawRays();
     }
-
-
 
     public void SetBlockRandom()
     {
@@ -145,5 +140,13 @@ public class BlockSc : MonoBehaviour
         }
     }
 
+
+    private void DrawRays()
+    {
+        Debug.DrawRay(transform.position, Vector3.right, Color.red);
+        Debug.DrawRay(transform.position, Vector3.up, Color.red);
+        Debug.DrawRay(transform.position, Vector3.down, Color.red);
+        Debug.DrawRay(transform.position, Vector3.left, Color.red);
+    }
 
 }
