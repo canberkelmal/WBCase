@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 856153}
   - component: {fileID: 856152}
   - component: {fileID: 856151}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -151,12 +151,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856149}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 7, y: 0, z: 0}
+  m_LocalPosition: {x: 7, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 626827429}
-  m_RootOrder: 2
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &856151
 MonoBehaviour:
@@ -173,8 +173,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &856152
@@ -253,7 +255,7 @@ GameObject:
   - component: {fileID: 17829357}
   - component: {fileID: 17829356}
   - component: {fileID: 17829355}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (5)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -268,12 +270,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17829353}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 4, y: 0, z: 0}
+  m_LocalPosition: {x: 4, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1186049979}
-  m_RootOrder: 5
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &17829355
 MonoBehaviour:
@@ -290,8 +292,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &17829356
@@ -370,7 +374,7 @@ GameObject:
   - component: {fileID: 18224113}
   - component: {fileID: 18224112}
   - component: {fileID: 18224115}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (7)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -385,12 +389,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18224110}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1295863149}
-  m_RootOrder: 7
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!65 &18224112
 BoxCollider:
@@ -470,8 +474,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!1 &50307772
@@ -487,7 +493,7 @@ GameObject:
   - component: {fileID: 50307775}
   - component: {fileID: 50307774}
   - component: {fileID: 50307777}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -502,12 +508,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50307772}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 9, y: 0, z: 0}
+  m_LocalPosition: {x: 9, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1295863149}
-  m_RootOrder: 0
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!65 &50307774
 BoxCollider:
@@ -587,8 +593,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!1 &53328560
@@ -604,7 +612,7 @@ GameObject:
   - component: {fileID: 53328564}
   - component: {fileID: 53328563}
   - component: {fileID: 53328562}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -619,12 +627,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53328560}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalPosition: {x: 8, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1352548334}
-  m_RootOrder: 1
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &53328562
 MonoBehaviour:
@@ -641,8 +649,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &53328563
@@ -721,7 +731,7 @@ GameObject:
   - component: {fileID: 91796161}
   - component: {fileID: 91796160}
   - component: {fileID: 91796159}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (8)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -758,8 +768,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &91796160
@@ -838,7 +850,7 @@ GameObject:
   - component: {fileID: 98400837}
   - component: {fileID: 98400836}
   - component: {fileID: 98400835}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (4)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -853,12 +865,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98400833}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalPosition: {x: 5, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1186049979}
-  m_RootOrder: 4
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &98400835
 MonoBehaviour:
@@ -875,8 +887,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &98400836
@@ -955,7 +969,7 @@ GameObject:
   - component: {fileID: 125589597}
   - component: {fileID: 125589596}
   - component: {fileID: 125589599}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (4)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -970,12 +984,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125589594}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalPosition: {x: 5, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1295863149}
-  m_RootOrder: 4
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!65 &125589596
 BoxCollider:
@@ -1055,8 +1069,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!1 &133756172
@@ -1206,7 +1222,7 @@ GameObject:
   - component: {fileID: 174781896}
   - component: {fileID: 174781895}
   - component: {fileID: 174781894}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (6)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1221,12 +1237,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174781892}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1352548334}
-  m_RootOrder: 6
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &174781894
 MonoBehaviour:
@@ -1243,8 +1259,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &174781895
@@ -1323,7 +1341,7 @@ GameObject:
   - component: {fileID: 202975186}
   - component: {fileID: 202975185}
   - component: {fileID: 202975184}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (8)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1338,12 +1356,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202975182}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalPosition: {x: 2, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1580170097}
-  m_RootOrder: 8
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &202975184
 MonoBehaviour:
@@ -1360,8 +1378,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &202975185
@@ -1440,7 +1460,7 @@ GameObject:
   - component: {fileID: 215674078}
   - component: {fileID: 215674077}
   - component: {fileID: 215674076}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (5)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1455,12 +1475,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215674074}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 4, y: 0, z: 0}
+  m_LocalPosition: {x: 4, y: 7.9999995, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1944950033}
-  m_RootOrder: 5
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &215674076
 MonoBehaviour:
@@ -1477,8 +1497,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &215674077
@@ -1557,7 +1579,7 @@ GameObject:
   - component: {fileID: 219675487}
   - component: {fileID: 219675486}
   - component: {fileID: 219675485}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1572,12 +1594,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219675483}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 9, y: 0, z: 0}
+  m_LocalPosition: {x: 9, y: 7.9999995, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1944950033}
-  m_RootOrder: 0
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &219675485
 MonoBehaviour:
@@ -1594,8 +1616,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &219675486
@@ -1674,7 +1698,7 @@ GameObject:
   - component: {fileID: 237657599}
   - component: {fileID: 237657598}
   - component: {fileID: 237657597}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (9)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1689,12 +1713,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237657595}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalPosition: {x: 3, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1186049979}
-  m_RootOrder: 9
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &237657597
 MonoBehaviour:
@@ -1711,8 +1735,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &237657598
@@ -1791,7 +1817,7 @@ GameObject:
   - component: {fileID: 247713278}
   - component: {fileID: 247713277}
   - component: {fileID: 247713276}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (4)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1806,12 +1832,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247713274}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalPosition: {x: 5, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 626827429}
-  m_RootOrder: 4
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &247713276
 MonoBehaviour:
@@ -1828,8 +1854,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &247713277
@@ -1908,7 +1936,7 @@ GameObject:
   - component: {fileID: 276043429}
   - component: {fileID: 276043428}
   - component: {fileID: 276043427}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (7)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1923,12 +1951,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276043425}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 626827429}
-  m_RootOrder: 7
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &276043427
 MonoBehaviour:
@@ -1945,8 +1973,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &276043428
@@ -2025,7 +2055,7 @@ GameObject:
   - component: {fileID: 280832682}
   - component: {fileID: 280832681}
   - component: {fileID: 280832680}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2040,12 +2070,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 280832678}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 9, y: 0, z: 0}
+  m_LocalPosition: {x: 9, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1580170097}
-  m_RootOrder: 0
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &280832680
 MonoBehaviour:
@@ -2062,8 +2092,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &280832681
@@ -2142,7 +2174,7 @@ GameObject:
   - component: {fileID: 328812529}
   - component: {fileID: 328812528}
   - component: {fileID: 328812527}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (8)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2157,12 +2189,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328812525}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalPosition: {x: 2, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1352548334}
-  m_RootOrder: 8
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &328812527
 MonoBehaviour:
@@ -2179,8 +2211,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &328812528
@@ -2474,7 +2508,7 @@ GameObject:
   - component: {fileID: 345888446}
   - component: {fileID: 345888445}
   - component: {fileID: 345888444}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (5)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2511,8 +2545,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &345888445
@@ -2591,7 +2627,7 @@ GameObject:
   - component: {fileID: 360000508}
   - component: {fileID: 360000507}
   - component: {fileID: 360000506}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (5)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2606,12 +2642,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360000504}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 4, y: 0, z: 0}
+  m_LocalPosition: {x: 4, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353723998}
-  m_RootOrder: 5
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &360000506
 MonoBehaviour:
@@ -2628,8 +2664,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &360000507
@@ -2708,7 +2746,7 @@ GameObject:
   - component: {fileID: 377841566}
   - component: {fileID: 377841565}
   - component: {fileID: 377841564}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (6)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2723,12 +2761,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377841562}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353723998}
-  m_RootOrder: 6
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &377841564
 MonoBehaviour:
@@ -2745,8 +2783,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &377841565
@@ -2825,7 +2865,7 @@ GameObject:
   - component: {fileID: 378464054}
   - component: {fileID: 378464053}
   - component: {fileID: 378464052}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (7)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2840,12 +2880,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378464050}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1186049979}
-  m_RootOrder: 7
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &378464052
 MonoBehaviour:
@@ -2862,8 +2902,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &378464053
@@ -3057,7 +3099,7 @@ GameObject:
   - component: {fileID: 424804735}
   - component: {fileID: 424804734}
   - component: {fileID: 424804733}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (4)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3072,12 +3114,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 424804731}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalPosition: {x: 5, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353723998}
-  m_RootOrder: 4
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &424804733
 MonoBehaviour:
@@ -3094,8 +3136,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &424804734
@@ -3271,7 +3315,7 @@ GameObject:
   - component: {fileID: 458076452}
   - component: {fileID: 458076451}
   - component: {fileID: 458076450}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3286,12 +3330,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458076448}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 9, y: 0, z: 0}
+  m_LocalPosition: {x: 9, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1352548334}
-  m_RootOrder: 0
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &458076450
 MonoBehaviour:
@@ -3308,8 +3352,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &458076451
@@ -3388,7 +3434,7 @@ GameObject:
   - component: {fileID: 482033634}
   - component: {fileID: 482033633}
   - component: {fileID: 482033632}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3403,12 +3449,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482033630}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 9, y: 0, z: 0}
+  m_LocalPosition: {x: 9, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1186049979}
-  m_RootOrder: 0
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &482033632
 MonoBehaviour:
@@ -3425,8 +3471,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &482033633
@@ -3602,7 +3650,7 @@ GameObject:
   - component: {fileID: 491210274}
   - component: {fileID: 491210273}
   - component: {fileID: 491210272}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (3)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3617,12 +3665,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491210270}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 6, y: 0, z: 0}
+  m_LocalPosition: {x: 6, y: 7.9999995, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1944950033}
-  m_RootOrder: 3
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &491210272
 MonoBehaviour:
@@ -3639,8 +3687,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &491210273
@@ -3730,7 +3780,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 500326870}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.2351425, z: 0}
+  m_LocalPosition: {x: 0, y: 0.155, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3744,8 +3794,98 @@ Transform:
   - {fileID: 2087276719}
   - {fileID: 91796158}
   - {fileID: 1146376836}
+  - {fileID: 1477205338}
+  - {fileID: 1219552681}
+  - {fileID: 856150}
+  - {fileID: 1043469214}
+  - {fileID: 247713275}
+  - {fileID: 2146889837}
+  - {fileID: 1349377420}
+  - {fileID: 276043426}
+  - {fileID: 1433699871}
+  - {fileID: 1969966058}
+  - {fileID: 482033631}
+  - {fileID: 1926913207}
+  - {fileID: 1931765887}
+  - {fileID: 1686874816}
+  - {fileID: 98400834}
+  - {fileID: 17829354}
+  - {fileID: 1569277479}
+  - {fileID: 378464051}
+  - {fileID: 1622974133}
+  - {fileID: 237657596}
+  - {fileID: 1133469838}
+  - {fileID: 1962464208}
+  - {fileID: 807940424}
+  - {fileID: 1949103557}
+  - {fileID: 1487793585}
+  - {fileID: 1557334254}
+  - {fileID: 1737783965}
+  - {fileID: 1914427088}
+  - {fileID: 1083743300}
+  - {fileID: 2141756050}
+  - {fileID: 50307773}
+  - {fileID: 1730447499}
+  - {fileID: 1210820102}
+  - {fileID: 918856249}
+  - {fileID: 125589595}
+  - {fileID: 1222442910}
+  - {fileID: 722121575}
+  - {fileID: 18224111}
+  - {fileID: 1445149070}
+  - {fileID: 1901219047}
+  - {fileID: 458076449}
+  - {fileID: 53328561}
+  - {fileID: 1042209215}
+  - {fileID: 1669846240}
+  - {fileID: 518046471}
+  - {fileID: 1201619512}
+  - {fileID: 174781893}
+  - {fileID: 724223516}
+  - {fileID: 328812526}
+  - {fileID: 567119537}
+  - {fileID: 1655309181}
+  - {fileID: 1811582626}
+  - {fileID: 1466717536}
+  - {fileID: 1793607216}
+  - {fileID: 424804732}
+  - {fileID: 360000505}
+  - {fileID: 377841563}
+  - {fileID: 1206289892}
+  - {fileID: 993457071}
+  - {fileID: 1574683920}
+  - {fileID: 280832679}
+  - {fileID: 1166052786}
+  - {fileID: 1185152913}
+  - {fileID: 1807535053}
+  - {fileID: 1800919025}
+  - {fileID: 783659712}
+  - {fileID: 1374653345}
+  - {fileID: 1950259885}
+  - {fileID: 202975183}
+  - {fileID: 1578378789}
+  - {fileID: 219675484}
+  - {fileID: 601559300}
+  - {fileID: 2017238755}
+  - {fileID: 491210271}
+  - {fileID: 893613104}
+  - {fileID: 215674075}
+  - {fileID: 2003979666}
+  - {fileID: 1755844738}
+  - {fileID: 1303286216}
+  - {fileID: 1391797450}
+  - {fileID: 1110279089}
+  - {fileID: 1090455536}
+  - {fileID: 711133507}
+  - {fileID: 1666231396}
+  - {fileID: 599014557}
+  - {fileID: 974785933}
+  - {fileID: 2103870345}
+  - {fileID: 1810200634}
+  - {fileID: 1362694611}
+  - {fileID: 510339603}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &510339602
 GameObject:
@@ -3760,7 +3900,7 @@ GameObject:
   - component: {fileID: 510339606}
   - component: {fileID: 510339605}
   - component: {fileID: 510339604}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (9)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3775,12 +3915,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510339602}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalPosition: {x: 3, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1980498751}
-  m_RootOrder: 9
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &510339604
 MonoBehaviour:
@@ -3797,8 +3937,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &510339605
@@ -3877,7 +4019,7 @@ GameObject:
   - component: {fileID: 518046474}
   - component: {fileID: 518046473}
   - component: {fileID: 518046472}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (4)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3892,12 +4034,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518046470}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalPosition: {x: 5, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1352548334}
-  m_RootOrder: 4
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &518046472
 MonoBehaviour:
@@ -3914,8 +4056,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &518046473
@@ -3994,7 +4138,7 @@ GameObject:
   - component: {fileID: 567119540}
   - component: {fileID: 567119539}
   - component: {fileID: 567119538}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (9)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4009,12 +4153,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 567119536}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalPosition: {x: 3, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1352548334}
-  m_RootOrder: 9
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &567119538
 MonoBehaviour:
@@ -4031,8 +4175,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &567119539
@@ -4111,7 +4257,7 @@ GameObject:
   - component: {fileID: 599014560}
   - component: {fileID: 599014559}
   - component: {fileID: 599014558}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (4)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4126,12 +4272,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599014556}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalPosition: {x: 5, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1980498751}
-  m_RootOrder: 4
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &599014558
 MonoBehaviour:
@@ -4148,8 +4294,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &599014559
@@ -4228,7 +4376,7 @@ GameObject:
   - component: {fileID: 601559303}
   - component: {fileID: 601559302}
   - component: {fileID: 601559301}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4243,12 +4391,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601559299}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalPosition: {x: 8, y: 7.9999995, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1944950033}
-  m_RootOrder: 1
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &601559301
 MonoBehaviour:
@@ -4265,8 +4413,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &601559302
@@ -4332,7 +4482,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601559299}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &626827428
+--- !u!1 &602614391
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4340,38 +4490,65 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 626827429}
+  - component: {fileID: 602614395}
+  - component: {fileID: 602614394}
+  - component: {fileID: 602614393}
+  - component: {fileID: 602614392}
   m_Layer: 0
-  m_Name: Cubes (3)
+  m_Name: FirstCubeDedector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &626827429
+--- !u!114 &602614392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602614391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3891a5c352d6e8a42b6794a3328f6888, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1472840861}
+--- !u!65 &602614393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602614391}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &602614394
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602614391}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &602614395
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626827428}
+  m_GameObject: {fileID: 602614391}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 8.180857, z: 0}
+  m_LocalPosition: {x: -0.077, y: -0.972, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1477205338}
-  - {fileID: 1219552681}
-  - {fileID: 856150}
-  - {fileID: 1043469214}
-  - {fileID: 247713275}
-  - {fileID: 2146889837}
-  - {fileID: 1349377420}
-  - {fileID: 276043426}
-  - {fileID: 1433699871}
-  - {fileID: 1969966058}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &671617333
 GameObject:
@@ -4487,7 +4664,7 @@ GameObject:
   - component: {fileID: 711133510}
   - component: {fileID: 711133509}
   - component: {fileID: 711133508}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4502,12 +4679,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711133506}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 7, y: 0, z: 0}
+  m_LocalPosition: {x: 7, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1980498751}
-  m_RootOrder: 2
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &711133508
 MonoBehaviour:
@@ -4524,8 +4701,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &711133509
@@ -4604,7 +4783,7 @@ GameObject:
   - component: {fileID: 722121577}
   - component: {fileID: 722121576}
   - component: {fileID: 722121579}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (6)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4619,12 +4798,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722121574}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1295863149}
-  m_RootOrder: 6
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!65 &722121576
 BoxCollider:
@@ -4704,8 +4883,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!1 &724223515
@@ -4721,7 +4902,7 @@ GameObject:
   - component: {fileID: 724223519}
   - component: {fileID: 724223518}
   - component: {fileID: 724223517}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (7)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4736,12 +4917,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 724223515}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1352548334}
-  m_RootOrder: 7
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &724223517
 MonoBehaviour:
@@ -4758,8 +4939,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &724223518
@@ -4838,7 +5021,7 @@ GameObject:
   - component: {fileID: 783659715}
   - component: {fileID: 783659714}
   - component: {fileID: 783659713}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (5)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4853,12 +5036,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783659711}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 4, y: 0, z: 0}
+  m_LocalPosition: {x: 4, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1580170097}
-  m_RootOrder: 5
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &783659713
 MonoBehaviour:
@@ -4875,8 +5058,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &783659714
@@ -5008,7 +5193,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &807940423
 GameObject:
@@ -5023,7 +5208,7 @@ GameObject:
   - component: {fileID: 807940427}
   - component: {fileID: 807940426}
   - component: {fileID: 807940425}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5038,12 +5223,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807940423}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 7, y: 0, z: 0}
+  m_LocalPosition: {x: 7, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1255925817}
-  m_RootOrder: 2
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &807940425
 MonoBehaviour:
@@ -5060,8 +5245,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &807940426
@@ -5140,7 +5327,7 @@ GameObject:
   - component: {fileID: 809158208}
   - component: {fileID: 809158207}
   - component: {fileID: 809158206}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5177,8 +5364,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &809158207
@@ -5306,7 +5495,7 @@ GameObject:
   - component: {fileID: 893613107}
   - component: {fileID: 893613106}
   - component: {fileID: 893613105}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (4)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5321,12 +5510,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893613103}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalPosition: {x: 5, y: 7.9999995, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1944950033}
-  m_RootOrder: 4
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &893613105
 MonoBehaviour:
@@ -5343,8 +5532,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &893613106
@@ -5423,7 +5614,7 @@ GameObject:
   - component: {fileID: 918856251}
   - component: {fileID: 918856250}
   - component: {fileID: 918856253}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (3)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5438,12 +5629,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918856248}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 6, y: 0, z: 0}
+  m_LocalPosition: {x: 6, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1295863149}
-  m_RootOrder: 3
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!65 &918856250
 BoxCollider:
@@ -5523,8 +5714,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!1 &974785932
@@ -5540,7 +5733,7 @@ GameObject:
   - component: {fileID: 974785936}
   - component: {fileID: 974785935}
   - component: {fileID: 974785934}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (5)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5555,12 +5748,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974785932}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 4, y: 0, z: 0}
+  m_LocalPosition: {x: 4, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1980498751}
-  m_RootOrder: 5
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &974785934
 MonoBehaviour:
@@ -5577,8 +5770,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &974785935
@@ -5657,7 +5852,7 @@ GameObject:
   - component: {fileID: 993457074}
   - component: {fileID: 993457073}
   - component: {fileID: 993457072}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (8)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5672,12 +5867,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993457070}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalPosition: {x: 2, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353723998}
-  m_RootOrder: 8
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &993457072
 MonoBehaviour:
@@ -5694,8 +5889,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &993457073
@@ -5774,7 +5971,7 @@ GameObject:
   - component: {fileID: 1042209218}
   - component: {fileID: 1042209217}
   - component: {fileID: 1042209216}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5789,12 +5986,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042209214}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 7, y: 0, z: 0}
+  m_LocalPosition: {x: 7, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1352548334}
-  m_RootOrder: 2
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1042209216
 MonoBehaviour:
@@ -5811,8 +6008,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1042209217
@@ -5891,7 +6090,7 @@ GameObject:
   - component: {fileID: 1043469217}
   - component: {fileID: 1043469216}
   - component: {fileID: 1043469215}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (3)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5906,12 +6105,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043469213}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 6, y: 0, z: 0}
+  m_LocalPosition: {x: 6, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 626827429}
-  m_RootOrder: 3
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1043469215
 MonoBehaviour:
@@ -5928,8 +6127,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1043469216
@@ -6008,7 +6209,7 @@ GameObject:
   - component: {fileID: 1083743303}
   - component: {fileID: 1083743302}
   - component: {fileID: 1083743301}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (8)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6023,12 +6224,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1083743299}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalPosition: {x: 2, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1255925817}
-  m_RootOrder: 8
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1083743301
 MonoBehaviour:
@@ -6045,8 +6246,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1083743302
@@ -6125,7 +6328,7 @@ GameObject:
   - component: {fileID: 1090455539}
   - component: {fileID: 1090455538}
   - component: {fileID: 1090455537}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6140,12 +6343,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090455535}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalPosition: {x: 8, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1980498751}
-  m_RootOrder: 1
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1090455537
 MonoBehaviour:
@@ -6162,8 +6365,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1090455538
@@ -6242,7 +6447,7 @@ GameObject:
   - component: {fileID: 1110279092}
   - component: {fileID: 1110279091}
   - component: {fileID: 1110279090}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6257,12 +6462,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110279088}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 9, y: 0, z: 0}
+  m_LocalPosition: {x: 9, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1980498751}
-  m_RootOrder: 0
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1110279090
 MonoBehaviour:
@@ -6279,8 +6484,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1110279091
@@ -6359,7 +6566,7 @@ GameObject:
   - component: {fileID: 1133469841}
   - component: {fileID: 1133469840}
   - component: {fileID: 1133469839}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6374,12 +6581,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133469837}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 9, y: 0, z: 0}
+  m_LocalPosition: {x: 9, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1255925817}
-  m_RootOrder: 0
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1133469839
 MonoBehaviour:
@@ -6396,8 +6603,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1133469840
@@ -6476,7 +6685,7 @@ GameObject:
   - component: {fileID: 1146376839}
   - component: {fileID: 1146376838}
   - component: {fileID: 1146376837}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (9)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6513,8 +6722,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1146376838
@@ -6593,7 +6804,7 @@ GameObject:
   - component: {fileID: 1166052789}
   - component: {fileID: 1166052788}
   - component: {fileID: 1166052787}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6608,12 +6819,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166052785}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalPosition: {x: 8, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1580170097}
-  m_RootOrder: 1
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1166052787
 MonoBehaviour:
@@ -6630,8 +6841,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1166052788
@@ -6710,7 +6923,7 @@ GameObject:
   - component: {fileID: 1185152916}
   - component: {fileID: 1185152915}
   - component: {fileID: 1185152914}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6725,12 +6938,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185152912}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 7, y: 0, z: 0}
+  m_LocalPosition: {x: 7, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1580170097}
-  m_RootOrder: 2
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1185152914
 MonoBehaviour:
@@ -6747,8 +6960,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1185152915
@@ -6814,47 +7029,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185152912}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1186049978
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1186049979}
-  m_Layer: 0
-  m_Name: Cubes (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1186049979
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186049978}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 7.191714, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 482033631}
-  - {fileID: 1926913207}
-  - {fileID: 1931765887}
-  - {fileID: 1686874816}
-  - {fileID: 98400834}
-  - {fileID: 17829354}
-  - {fileID: 1569277479}
-  - {fileID: 378464051}
-  - {fileID: 1622974133}
-  - {fileID: 237657596}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1201619511
 GameObject:
   m_ObjectHideFlags: 0
@@ -6868,7 +7042,7 @@ GameObject:
   - component: {fileID: 1201619515}
   - component: {fileID: 1201619514}
   - component: {fileID: 1201619513}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (5)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6883,12 +7057,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201619511}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 4, y: 0, z: 0}
+  m_LocalPosition: {x: 4, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1352548334}
-  m_RootOrder: 5
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1201619513
 MonoBehaviour:
@@ -6905,8 +7079,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1201619514
@@ -6985,7 +7161,7 @@ GameObject:
   - component: {fileID: 1206289895}
   - component: {fileID: 1206289894}
   - component: {fileID: 1206289893}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (7)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7000,12 +7176,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206289891}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353723998}
-  m_RootOrder: 7
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1206289893
 MonoBehaviour:
@@ -7022,8 +7198,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1206289894
@@ -7102,7 +7280,7 @@ GameObject:
   - component: {fileID: 1210820104}
   - component: {fileID: 1210820103}
   - component: {fileID: 1210820106}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7117,12 +7295,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1210820101}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 7, y: 0, z: 0}
+  m_LocalPosition: {x: 7, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1295863149}
-  m_RootOrder: 2
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!65 &1210820103
 BoxCollider:
@@ -7202,8 +7380,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!1 &1219552680
@@ -7219,7 +7399,7 @@ GameObject:
   - component: {fileID: 1219552684}
   - component: {fileID: 1219552683}
   - component: {fileID: 1219552682}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7234,12 +7414,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219552680}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalPosition: {x: 8, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 626827429}
-  m_RootOrder: 1
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1219552682
 MonoBehaviour:
@@ -7256,8 +7436,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1219552683
@@ -7336,7 +7518,7 @@ GameObject:
   - component: {fileID: 1222442912}
   - component: {fileID: 1222442911}
   - component: {fileID: 1222442914}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (5)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7351,12 +7533,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222442909}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 4, y: 0, z: 0}
+  m_LocalPosition: {x: 4, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1295863149}
-  m_RootOrder: 5
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!65 &1222442911
 BoxCollider:
@@ -7436,8 +7618,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!1 &1248387533
@@ -7453,7 +7637,7 @@ GameObject:
   - component: {fileID: 1248387537}
   - component: {fileID: 1248387536}
   - component: {fileID: 1248387535}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7490,8 +7674,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1248387536
@@ -7557,88 +7743,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248387533}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1255925816
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1255925817}
-  m_Layer: 0
-  m_Name: Cubes (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1255925817
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1255925816}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.2134285, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1133469838}
-  - {fileID: 1962464208}
-  - {fileID: 807940424}
-  - {fileID: 1949103557}
-  - {fileID: 1487793585}
-  - {fileID: 1557334254}
-  - {fileID: 1737783965}
-  - {fileID: 1914427088}
-  - {fileID: 1083743300}
-  - {fileID: 2141756050}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1295863148
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1295863149}
-  m_Layer: 0
-  m_Name: Cubes
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1295863149
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1295863148}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.155, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 50307773}
-  - {fileID: 1730447499}
-  - {fileID: 1210820102}
-  - {fileID: 918856249}
-  - {fileID: 125589595}
-  - {fileID: 1222442910}
-  - {fileID: 722121575}
-  - {fileID: 18224111}
-  - {fileID: 1445149070}
-  - {fileID: 1901219047}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1303286215
 GameObject:
   m_ObjectHideFlags: 0
@@ -7652,7 +7756,7 @@ GameObject:
   - component: {fileID: 1303286219}
   - component: {fileID: 1303286218}
   - component: {fileID: 1303286217}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (8)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7667,12 +7771,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1303286215}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalPosition: {x: 2, y: 7.9999995, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1944950033}
-  m_RootOrder: 8
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1303286217
 MonoBehaviour:
@@ -7689,8 +7793,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1303286218
@@ -7769,7 +7875,7 @@ GameObject:
   - component: {fileID: 1349377423}
   - component: {fileID: 1349377422}
   - component: {fileID: 1349377421}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (6)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7784,12 +7890,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1349377419}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 626827429}
-  m_RootOrder: 6
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1349377421
 MonoBehaviour:
@@ -7806,8 +7912,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1349377422
@@ -7873,88 +7981,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1349377419}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1352548333
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1352548334}
-  m_Layer: 0
-  m_Name: Cubes (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1352548334
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1352548333}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 6.2025714, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 458076449}
-  - {fileID: 53328561}
-  - {fileID: 1042209215}
-  - {fileID: 1669846240}
-  - {fileID: 518046471}
-  - {fileID: 1201619512}
-  - {fileID: 174781893}
-  - {fileID: 724223516}
-  - {fileID: 328812526}
-  - {fileID: 567119537}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1353723997
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1353723998}
-  m_Layer: 0
-  m_Name: Cubes (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1353723998
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1353723997}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.2242856, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1655309181}
-  - {fileID: 1811582626}
-  - {fileID: 1466717536}
-  - {fileID: 1793607216}
-  - {fileID: 424804732}
-  - {fileID: 360000505}
-  - {fileID: 377841563}
-  - {fileID: 1206289892}
-  - {fileID: 993457071}
-  - {fileID: 1574683920}
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1362694610
 GameObject:
   m_ObjectHideFlags: 0
@@ -7968,7 +7994,7 @@ GameObject:
   - component: {fileID: 1362694614}
   - component: {fileID: 1362694613}
   - component: {fileID: 1362694612}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (8)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7983,12 +8009,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362694610}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalPosition: {x: 2, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1980498751}
-  m_RootOrder: 8
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1362694612
 MonoBehaviour:
@@ -8005,8 +8031,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1362694613
@@ -8085,7 +8113,7 @@ GameObject:
   - component: {fileID: 1374653348}
   - component: {fileID: 1374653347}
   - component: {fileID: 1374653346}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (6)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8100,12 +8128,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1374653344}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1580170097}
-  m_RootOrder: 6
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1374653346
 MonoBehaviour:
@@ -8122,8 +8150,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1374653347
@@ -8202,7 +8232,7 @@ GameObject:
   - component: {fileID: 1391797453}
   - component: {fileID: 1391797452}
   - component: {fileID: 1391797451}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (9)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8217,12 +8247,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391797449}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalPosition: {x: 3, y: 7.9999995, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1944950033}
-  m_RootOrder: 9
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1391797451
 MonoBehaviour:
@@ -8239,8 +8269,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1391797452
@@ -8319,7 +8351,7 @@ GameObject:
   - component: {fileID: 1412461522}
   - component: {fileID: 1412461521}
   - component: {fileID: 1412461520}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (4)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8356,8 +8388,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1412461521
@@ -8436,7 +8470,7 @@ GameObject:
   - component: {fileID: 1433699874}
   - component: {fileID: 1433699873}
   - component: {fileID: 1433699872}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (8)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8451,12 +8485,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433699870}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalPosition: {x: 2, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 626827429}
-  m_RootOrder: 8
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1433699872
 MonoBehaviour:
@@ -8473,8 +8507,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1433699873
@@ -8553,7 +8589,7 @@ GameObject:
   - component: {fileID: 1445149072}
   - component: {fileID: 1445149071}
   - component: {fileID: 1445149074}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (8)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8568,12 +8604,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445149069}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalPosition: {x: 2, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1295863149}
-  m_RootOrder: 8
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!65 &1445149071
 BoxCollider:
@@ -8653,8 +8689,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!1 &1466717535
@@ -8670,7 +8708,7 @@ GameObject:
   - component: {fileID: 1466717539}
   - component: {fileID: 1466717538}
   - component: {fileID: 1466717537}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8685,12 +8723,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1466717535}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 7, y: 0, z: 0}
+  m_LocalPosition: {x: 7, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353723998}
-  m_RootOrder: 2
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1466717537
 MonoBehaviour:
@@ -8707,8 +8745,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1466717538
@@ -8803,9 +8843,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d75e39524ed244bb4fee982007d97c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A: 2
+  M: 10
+  N: 10
+  A: 3
   B: 5
   C: 7
+  groupMembersCount: 
+  dedectorSc: {fileID: 602614392}
+  blocksLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  groupIndex: 0
 --- !u!4 &1472840862
 Transform:
   m_ObjectHideFlags: 0
@@ -8834,7 +8882,7 @@ GameObject:
   - component: {fileID: 1477205341}
   - component: {fileID: 1477205340}
   - component: {fileID: 1477205339}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8849,12 +8897,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1477205337}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 9, y: 0, z: 0}
+  m_LocalPosition: {x: 9, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 626827429}
-  m_RootOrder: 0
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1477205339
 MonoBehaviour:
@@ -8871,8 +8919,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1477205340
@@ -8951,7 +9001,7 @@ GameObject:
   - component: {fileID: 1487793588}
   - component: {fileID: 1487793587}
   - component: {fileID: 1487793586}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (4)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8966,12 +9016,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487793584}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalPosition: {x: 5, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1255925817}
-  m_RootOrder: 4
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1487793586
 MonoBehaviour:
@@ -8988,8 +9038,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1487793587
@@ -9068,7 +9120,7 @@ GameObject:
   - component: {fileID: 1557334257}
   - component: {fileID: 1557334256}
   - component: {fileID: 1557334255}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (5)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -9083,12 +9135,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557334253}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 4, y: 0, z: 0}
+  m_LocalPosition: {x: 4, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1255925817}
-  m_RootOrder: 5
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1557334255
 MonoBehaviour:
@@ -9105,8 +9157,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1557334256
@@ -9185,7 +9239,7 @@ GameObject:
   - component: {fileID: 1569277482}
   - component: {fileID: 1569277481}
   - component: {fileID: 1569277480}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (6)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -9200,12 +9254,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1569277478}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1186049979}
-  m_RootOrder: 6
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1569277480
 MonoBehaviour:
@@ -9222,8 +9276,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1569277481
@@ -9302,7 +9358,7 @@ GameObject:
   - component: {fileID: 1574683923}
   - component: {fileID: 1574683922}
   - component: {fileID: 1574683921}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (9)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -9317,12 +9373,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574683919}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalPosition: {x: 3, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353723998}
-  m_RootOrder: 9
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1574683921
 MonoBehaviour:
@@ -9339,8 +9395,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1574683922
@@ -9419,7 +9477,7 @@ GameObject:
   - component: {fileID: 1578378792}
   - component: {fileID: 1578378791}
   - component: {fileID: 1578378790}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (9)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -9434,12 +9492,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578378788}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalPosition: {x: 3, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1580170097}
-  m_RootOrder: 9
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1578378790
 MonoBehaviour:
@@ -9456,8 +9514,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1578378791
@@ -9523,47 +9583,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578378788}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1580170096
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1580170097}
-  m_Layer: 0
-  m_Name: Cubes (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1580170097
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580170096}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.2459998, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 280832679}
-  - {fileID: 1166052786}
-  - {fileID: 1185152913}
-  - {fileID: 1807535053}
-  - {fileID: 1800919025}
-  - {fileID: 783659712}
-  - {fileID: 1374653345}
-  - {fileID: 1950259885}
-  - {fileID: 202975183}
-  - {fileID: 1578378789}
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1598685235
 GameObject:
   m_ObjectHideFlags: 0
@@ -9579,7 +9598,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1598685236
 Transform:
   m_ObjectHideFlags: 0
@@ -9612,7 +9631,7 @@ GameObject:
   - component: {fileID: 1622974136}
   - component: {fileID: 1622974135}
   - component: {fileID: 1622974134}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (8)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -9627,12 +9646,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622974132}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalPosition: {x: 2, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1186049979}
-  m_RootOrder: 8
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1622974134
 MonoBehaviour:
@@ -9649,8 +9668,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1622974135
@@ -9729,7 +9750,7 @@ GameObject:
   - component: {fileID: 1655309184}
   - component: {fileID: 1655309183}
   - component: {fileID: 1655309182}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -9744,12 +9765,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655309180}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 9, y: 0, z: 0}
+  m_LocalPosition: {x: 9, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353723998}
-  m_RootOrder: 0
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1655309182
 MonoBehaviour:
@@ -9766,8 +9787,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1655309183
@@ -9846,7 +9869,7 @@ GameObject:
   - component: {fileID: 1659545034}
   - component: {fileID: 1659545033}
   - component: {fileID: 1659545032}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (3)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -9883,8 +9906,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1659545033
@@ -9963,7 +9988,7 @@ GameObject:
   - component: {fileID: 1666231399}
   - component: {fileID: 1666231398}
   - component: {fileID: 1666231397}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (3)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -9978,12 +10003,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1666231395}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 6, y: 0, z: 0}
+  m_LocalPosition: {x: 6, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1980498751}
-  m_RootOrder: 3
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1666231397
 MonoBehaviour:
@@ -10000,8 +10025,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1666231398
@@ -10080,7 +10107,7 @@ GameObject:
   - component: {fileID: 1669846243}
   - component: {fileID: 1669846242}
   - component: {fileID: 1669846241}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (3)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -10095,12 +10122,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1669846239}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 6, y: 0, z: 0}
+  m_LocalPosition: {x: 6, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1352548334}
-  m_RootOrder: 3
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1669846241
 MonoBehaviour:
@@ -10117,8 +10144,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1669846242
@@ -10197,7 +10226,7 @@ GameObject:
   - component: {fileID: 1686874819}
   - component: {fileID: 1686874818}
   - component: {fileID: 1686874817}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (3)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -10212,12 +10241,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686874815}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 6, y: 0, z: 0}
+  m_LocalPosition: {x: 6, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1186049979}
-  m_RootOrder: 3
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1686874817
 MonoBehaviour:
@@ -10234,8 +10263,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1686874818
@@ -10491,7 +10522,7 @@ GameObject:
   - component: {fileID: 1730447501}
   - component: {fileID: 1730447500}
   - component: {fileID: 1730447503}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -10506,12 +10537,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1730447498}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalPosition: {x: 8, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1295863149}
-  m_RootOrder: 1
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!65 &1730447500
 BoxCollider:
@@ -10591,8 +10622,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!1 &1737783964
@@ -10608,7 +10641,7 @@ GameObject:
   - component: {fileID: 1737783968}
   - component: {fileID: 1737783967}
   - component: {fileID: 1737783966}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (6)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -10623,12 +10656,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737783964}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1255925817}
-  m_RootOrder: 6
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1737783966
 MonoBehaviour:
@@ -10645,8 +10678,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1737783967
@@ -10725,7 +10760,7 @@ GameObject:
   - component: {fileID: 1740860922}
   - component: {fileID: 1740860921}
   - component: {fileID: 1740860920}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -10762,8 +10797,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1740860921
@@ -10842,7 +10879,7 @@ GameObject:
   - component: {fileID: 1755844741}
   - component: {fileID: 1755844740}
   - component: {fileID: 1755844739}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (7)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -10857,12 +10894,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1755844737}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 7.9999995, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1944950033}
-  m_RootOrder: 7
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1755844739
 MonoBehaviour:
@@ -10879,8 +10916,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1755844740
@@ -10959,7 +10998,7 @@ GameObject:
   - component: {fileID: 1793607219}
   - component: {fileID: 1793607218}
   - component: {fileID: 1793607217}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (3)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -10974,12 +11013,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793607215}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 6, y: 0, z: 0}
+  m_LocalPosition: {x: 6, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353723998}
-  m_RootOrder: 3
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1793607217
 MonoBehaviour:
@@ -10996,8 +11035,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1793607218
@@ -11076,7 +11117,7 @@ GameObject:
   - component: {fileID: 1800919028}
   - component: {fileID: 1800919027}
   - component: {fileID: 1800919026}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (4)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -11091,12 +11132,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800919024}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalPosition: {x: 5, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1580170097}
-  m_RootOrder: 4
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1800919026
 MonoBehaviour:
@@ -11113,8 +11154,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1800919027
@@ -11193,7 +11236,7 @@ GameObject:
   - component: {fileID: 1807535056}
   - component: {fileID: 1807535055}
   - component: {fileID: 1807535054}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (3)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -11208,12 +11251,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807535052}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 6, y: 0, z: 0}
+  m_LocalPosition: {x: 6, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1580170097}
-  m_RootOrder: 3
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1807535054
 MonoBehaviour:
@@ -11230,8 +11273,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1807535055
@@ -11310,7 +11355,7 @@ GameObject:
   - component: {fileID: 1810200637}
   - component: {fileID: 1810200636}
   - component: {fileID: 1810200635}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (7)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -11325,12 +11370,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810200633}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1980498751}
-  m_RootOrder: 7
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1810200635
 MonoBehaviour:
@@ -11347,8 +11392,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1810200636
@@ -11427,7 +11474,7 @@ GameObject:
   - component: {fileID: 1811582629}
   - component: {fileID: 1811582628}
   - component: {fileID: 1811582627}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -11442,12 +11489,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811582625}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalPosition: {x: 8, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353723998}
-  m_RootOrder: 1
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1811582627
 MonoBehaviour:
@@ -11464,8 +11511,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1811582628
@@ -11544,7 +11593,7 @@ GameObject:
   - component: {fileID: 1901219049}
   - component: {fileID: 1901219048}
   - component: {fileID: 1901219051}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (9)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -11559,12 +11608,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901219046}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalPosition: {x: 3, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1295863149}
-  m_RootOrder: 9
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!65 &1901219048
 BoxCollider:
@@ -11644,8 +11693,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!1 &1914427087
@@ -11661,7 +11712,7 @@ GameObject:
   - component: {fileID: 1914427091}
   - component: {fileID: 1914427090}
   - component: {fileID: 1914427089}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (7)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -11676,12 +11727,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914427087}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1255925817}
-  m_RootOrder: 7
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1914427089
 MonoBehaviour:
@@ -11698,8 +11749,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1914427090
@@ -11778,7 +11831,7 @@ GameObject:
   - component: {fileID: 1924878888}
   - component: {fileID: 1924878887}
   - component: {fileID: 1924878886}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (6)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -11815,8 +11868,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1924878887
@@ -11895,7 +11950,7 @@ GameObject:
   - component: {fileID: 1926913210}
   - component: {fileID: 1926913209}
   - component: {fileID: 1926913208}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -11910,12 +11965,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926913206}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalPosition: {x: 8, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1186049979}
-  m_RootOrder: 1
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1926913208
 MonoBehaviour:
@@ -11932,8 +11987,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1926913209
@@ -12012,7 +12069,7 @@ GameObject:
   - component: {fileID: 1931765890}
   - component: {fileID: 1931765889}
   - component: {fileID: 1931765888}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -12027,12 +12084,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931765886}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 7, y: 0, z: 0}
+  m_LocalPosition: {x: 7, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1186049979}
-  m_RootOrder: 2
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1931765888
 MonoBehaviour:
@@ -12049,8 +12106,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1931765889
@@ -12116,47 +12175,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931765886}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1944950032
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1944950033}
-  m_Layer: 0
-  m_Name: Cubes (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1944950033
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1944950032}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.154, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 219675484}
-  - {fileID: 601559300}
-  - {fileID: 2017238755}
-  - {fileID: 491210271}
-  - {fileID: 893613104}
-  - {fileID: 215674075}
-  - {fileID: 2003979666}
-  - {fileID: 1755844738}
-  - {fileID: 1303286216}
-  - {fileID: 1391797450}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1949103556
 GameObject:
   m_ObjectHideFlags: 0
@@ -12170,7 +12188,7 @@ GameObject:
   - component: {fileID: 1949103560}
   - component: {fileID: 1949103559}
   - component: {fileID: 1949103558}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (3)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -12185,12 +12203,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949103556}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 6, y: 0, z: 0}
+  m_LocalPosition: {x: 6, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1255925817}
-  m_RootOrder: 3
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1949103558
 MonoBehaviour:
@@ -12207,8 +12225,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1949103559
@@ -12287,7 +12307,7 @@ GameObject:
   - component: {fileID: 1950259888}
   - component: {fileID: 1950259887}
   - component: {fileID: 1950259886}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (7)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -12302,12 +12322,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950259884}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1580170097}
-  m_RootOrder: 7
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1950259886
 MonoBehaviour:
@@ -12324,8 +12344,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1950259887
@@ -12404,7 +12426,7 @@ GameObject:
   - component: {fileID: 1962464211}
   - component: {fileID: 1962464210}
   - component: {fileID: 1962464209}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -12419,12 +12441,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962464207}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalPosition: {x: 8, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1255925817}
-  m_RootOrder: 1
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1962464209
 MonoBehaviour:
@@ -12441,8 +12463,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1962464210
@@ -12521,7 +12545,7 @@ GameObject:
   - component: {fileID: 1969966061}
   - component: {fileID: 1969966060}
   - component: {fileID: 1969966059}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (9)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -12536,12 +12560,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1969966057}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalPosition: {x: 3, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 626827429}
-  m_RootOrder: 9
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1969966059
 MonoBehaviour:
@@ -12558,8 +12582,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &1969966060
@@ -12625,47 +12651,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1969966057}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1980498750
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1980498751}
-  m_Layer: 0
-  m_Name: Cubes (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1980498751
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1980498750}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 9.17, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1110279089}
-  - {fileID: 1090455536}
-  - {fileID: 711133507}
-  - {fileID: 1666231396}
-  - {fileID: 599014557}
-  - {fileID: 974785933}
-  - {fileID: 2103870345}
-  - {fileID: 1810200634}
-  - {fileID: 1362694611}
-  - {fileID: 510339603}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2003979665
 GameObject:
   m_ObjectHideFlags: 0
@@ -12679,7 +12664,7 @@ GameObject:
   - component: {fileID: 2003979669}
   - component: {fileID: 2003979668}
   - component: {fileID: 2003979667}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (6)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -12694,12 +12679,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2003979665}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 7.9999995, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1944950033}
-  m_RootOrder: 6
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &2003979667
 MonoBehaviour:
@@ -12716,8 +12701,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &2003979668
@@ -12796,7 +12783,7 @@ GameObject:
   - component: {fileID: 2017238758}
   - component: {fileID: 2017238757}
   - component: {fileID: 2017238756}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -12811,12 +12798,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017238754}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 7, y: 0, z: 0}
+  m_LocalPosition: {x: 7, y: 7.9999995, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1944950033}
-  m_RootOrder: 2
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &2017238756
 MonoBehaviour:
@@ -12833,8 +12820,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &2017238757
@@ -12913,7 +12902,7 @@ GameObject:
   - component: {fileID: 2087276722}
   - component: {fileID: 2087276721}
   - component: {fileID: 2087276720}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (7)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -12950,8 +12939,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &2087276721
@@ -13030,7 +13021,7 @@ GameObject:
   - component: {fileID: 2103870348}
   - component: {fileID: 2103870347}
   - component: {fileID: 2103870346}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (6)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -13045,12 +13036,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103870344}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1980498751}
-  m_RootOrder: 6
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &2103870346
 MonoBehaviour:
@@ -13067,8 +13058,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &2103870347
@@ -13147,7 +13140,7 @@ GameObject:
   - component: {fileID: 2141756053}
   - component: {fileID: 2141756052}
   - component: {fileID: 2141756051}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (9)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -13162,12 +13155,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2141756049}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalPosition: {x: 3, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1255925817}
-  m_RootOrder: 9
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &2141756051
 MonoBehaviour:
@@ -13184,8 +13177,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &2141756052
@@ -13264,7 +13259,7 @@ GameObject:
   - component: {fileID: 2146889840}
   - component: {fileID: 2146889839}
   - component: {fileID: 2146889838}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (5)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -13279,12 +13274,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146889836}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 4, y: 0, z: 0}
+  m_LocalPosition: {x: 4, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 626827429}
-  m_RootOrder: 5
+  m_Father: {fileID: 500326871}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &2146889838
 MonoBehaviour:
@@ -13301,8 +13296,10 @@ MonoBehaviour:
   blockMaterial: {fileID: 0}
   colorIndex: 0
   iconIndex: 3
+  groupIndex: 0
   isChecked: 0
   isCounted: 0
+  isAdded: 0
   sames: []
   rayDistance: 1
 --- !u!65 &2146889839
