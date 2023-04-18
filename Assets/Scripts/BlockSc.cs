@@ -7,13 +7,13 @@ using static System.Net.WebRequestMethods;
 
 public class BlockSc : MonoBehaviour
 {
-    [HideInInspector]
+    //[HideInInspector]
     public Material blockMaterial;
-    [HideInInspector]
+    //[HideInInspector]
     public int colorIndex;
     [HideInInspector]
     public int iconIndex = 3;
-    [HideInInspector]
+    //[HideInInspector]
     public int groupIndex = 0;
     [HideInInspector]
     public bool isChecked = false;
@@ -28,17 +28,21 @@ public class BlockSc : MonoBehaviour
 
     public float rayDistance = 200f;
 
+    public int row;
+    public int column;
+
 
     private void Awake()
-    { 
+    {
         gM = FindObjectOfType<GameManager>();
+        //groupIndex = 0;
     }
 
     private void Start()
     {
-        iconIndex = 3;
-        transform.position += Vector3.back * transform.position.y * 0.01f;
         SetBlockRandom();
+        //iconIndex = 3;
+        transform.position += Vector3.back * transform.position.y * 0.01f;
         //sames = new GameObject[1];
         //sames[0] = gameObject;
         //CheckForIcon();
@@ -149,16 +153,17 @@ public class BlockSc : MonoBehaviour
 
     private void DestroySames()
     {
-        for(int i = 0;i < sames.Length; i++)
+        for (int i = 0;i < sames.Length; i++)
         {
-            Destroy(sames[i]);
+            //Destroy(sames[i]);
+            print(groupIndex);
         }
     }
 
 
     private void DrawRays()
     {
-        Debug.DrawRay(transform.position, Vector3.right, Color.red);
+        //Debug.DrawRay(transform.position, Vector3.right, Color.red);
         //Debug.DrawRay(transform.position, Vector3.up, Color.red);
         //Debug.DrawRay(transform.position, Vector3.down, Color.red);
         //Debug.DrawRay(transform.position, Vector3.left, Color.red);

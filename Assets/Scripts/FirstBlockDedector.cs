@@ -13,7 +13,6 @@ public class FirstBlockDedector : MonoBehaviour
         {
             if (hitUp.transform != null)
             {
-                print("firstBlockDetected " + hitUp.transform.position);
                 return hitUp.transform;
             }
             else
