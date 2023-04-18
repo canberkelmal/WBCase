@@ -27,19 +27,13 @@ public class GameManager : MonoBehaviour
 
     private GameObject clickedBlock;
 
+    public bool clickable = true;
+
 
     private void Awake()
     {
-        groupIndex = 1;
         InitializeBlockMaterials();
-        IncreaseGroupMembersCountLength();
-        IncreaseGroupMembersCountLength();
-    }
-
-    private void Start()
-    {
-        blocksArray = new Transform[M, N];
-        FillBlocksArray();
+        SetTable();
     }
 
     // Update is called once per frame
@@ -51,10 +45,19 @@ public class GameManager : MonoBehaviour
             Restart();
         }
 
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0) && clickable)
         {
             ClickDedector();
         }
+    }
+
+    private void SetTable()
+    {
+        groupIndex = 1;
+        IncreaseGroupMembersCountLength();
+        IncreaseGroupMembersCountLength();
+        blocksArray = new Transform[M, N];
+        FillBlocksArray();
     }
 
     private void FillBlocksArray()
@@ -238,6 +241,7 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
+        clickable = true;
     }
 
 
@@ -274,6 +278,7 @@ public class GameManager : MonoBehaviour
     }
     void DestroyClickedGroup(int destroyedGroupInd)
     {
+        clickable = false;
         for (int i = 0; i < M; i++)
         {
             for (int j = 0; j < N; j++)
@@ -284,6 +289,21 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
+        SetGroupIndexesDef();
+        Invoke("SetTable", 2f);
+    }
+
+    void SetGroupIndexesDef()
+    {
+        groupMembersCount = new int[0];
+        for (int i = 0; i < M; i++)
+        {
+            for (int j = 0; j < N; j++)
+            {
+                blocksArray[i, j].GetComponent<BlockSc>().groupIndex = 0;
+            }
+        }
+
     }
 
     // Reload the current scene to restart the game
