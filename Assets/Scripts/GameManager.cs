@@ -51,7 +51,6 @@ public class GameManager : MonoBehaviour
             Restart();
         }
 
-
         if (Input.GetMouseButtonUp(0))
         {
             ClickDedector();
@@ -93,7 +92,6 @@ public class GameManager : MonoBehaviour
                         hitRight.transform.GetComponent<BlockSc>().column = j;
                     }
                 }
-
             }
         }
         Invoke("SetBlocksGroupIndexes", 0.1f);
@@ -108,14 +106,6 @@ public class GameManager : MonoBehaviour
                 BlockSc currentBlockSc = blocksArray[i, j].GetComponent<BlockSc>();
                 BlockSc downBlockSc = i != 9 ? blocksArray[i + 1, j].GetComponent<BlockSc>() : null;
                 BlockSc leftBlockSc = j != 0 ? blocksArray[i, j - 1].GetComponent<BlockSc>() : null;
-
-                print("current: " + blocksArray[i, j].name);
-
-                if (leftBlockSc != null)
-                    print("left: " + blocksArray[i, j - 1].name);
-
-                if (downBlockSc != null)
-                    print("down: " + blocksArray[i + 1, j].name);
 
 
                 // if leftBlock color same with currentBlock
@@ -178,14 +168,6 @@ public class GameManager : MonoBehaviour
                     {
                         SetPreviousGroupIndex(downBlockSc.groupIndex, currentBlockSc.groupIndex);
                     }
-                }
-
-
-                if (j != 0 && currentBlockSc.colorIndex != leftBlockSc.colorIndex && i != M - 1 && currentBlockSc.colorIndex != downBlockSc.colorIndex)
-                {
-                    //leftBlockSc.groupIndex = 0;
-                    //downBlockSc.groupIndex = 0;
-                    //currentBlockSc.groupIndex = 0;
                 }
             }
         }
@@ -271,7 +253,6 @@ public class GameManager : MonoBehaviour
                 string path = "Materials/BlockMaterials/" + colorFolderNames[i] + "/" + materialNames[j]; 
 
                 Material material = Resources.Load<Material>(path);
-                //print(material);
 
                 blockMaterials[i][j] = material;
             }
