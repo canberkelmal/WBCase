@@ -5,7 +5,7 @@ using Sirenix.OdinInspector;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using static System.Net.WebRequestMethods;
-using UnityEditor.Rendering.LookDev;
+//using UnityEditor.Rendering.LookDev;
 using System;
 
 public class GameManager : MonoBehaviour
