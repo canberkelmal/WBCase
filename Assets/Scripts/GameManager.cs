@@ -58,18 +58,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
-    {
-        for (int i = M - 1; i >= 0; i--)
-        {
-            for (int j = 1; j < N; j++)
-            {
-                //Ray ray2 = new Ray(blocksArray[i, j - 1].position, -blocksArray[i, j - 1].right);
-                Debug.DrawRay(blocksArray[i, j - 1].position, -blocksArray[i, j - 1].right, Color.red);
-            }
-        }
-    }
-
     private void FillBlocksArray()
     {
         blocksArray[9,0] = dedectorSc.DetectFirstBlock();
@@ -108,82 +96,7 @@ public class GameManager : MonoBehaviour
 
             }
         }
-        Invoke("SetBlocksGroupIndexes2", 0.1f);
-    }
-
-    private void SetBlocksGroupIndexes2()
-    {
-        for (int i = 0; i < M; i++)
-        {
-            for (int j = 0; j < N; j++)
-            {
-                BlockSc currentBlockSc = blocksArray[i, j].GetComponent<BlockSc>();
-                BlockSc upBlockSc = i != 0 ? blocksArray[i - 1, j].GetComponent<BlockSc>() : null;
-                BlockSc rightBlockSc = j != 9 ? blocksArray[i, j + 1].GetComponent<BlockSc>() : null;
-
-                if (j != 9 && currentBlockSc.colorIndex == rightBlockSc.colorIndex)
-                {
-                    // if both do not have a group
-                    if (rightBlockSc.groupIndex == 0 && currentBlockSc.groupIndex == 0)
-                    {
-                        groupIndex++;
-                        IncreaseGroupMembersCountLength();
-                        rightBlockSc.groupIndex = groupIndex;
-                        currentBlockSc.groupIndex = groupIndex;
-                        AddMemberToGroupArray(groupIndex, 2);
-                    }
-                    // if leftBlock does not have a group and current has a group
-                    else if (rightBlockSc.groupIndex == 0 && currentBlockSc.groupIndex != 0)
-                    {
-                        rightBlockSc.groupIndex = currentBlockSc.groupIndex;
-                        AddMemberToGroupArray(currentBlockSc.groupIndex, 1);
-                    }
-                    // if leftBlock has a group and current does not have a group
-                    else if (rightBlockSc.groupIndex != 0 && currentBlockSc.groupIndex == 0)
-                    {
-                        currentBlockSc.groupIndex = rightBlockSc.groupIndex;
-                        AddMemberToGroupArray(currentBlockSc.groupIndex, 1);
-                    }
-                    // if both have a group
-                    else if (rightBlockSc.groupIndex != 0 && currentBlockSc.groupIndex != 0)
-                    {
-                        SetPreviousGroupIndex(rightBlockSc.groupIndex, currentBlockSc.groupIndex);
-                    }
-                }
-
-                if (i != 0 && currentBlockSc.colorIndex == upBlockSc.colorIndex)
-                {
-                    // if both do not have a group
-                    if (upBlockSc.groupIndex == 0 && currentBlockSc.groupIndex == 0)
-                    {
-                        groupIndex++;
-                        IncreaseGroupMembersCountLength();
-                        upBlockSc.groupIndex = groupIndex;
-                        currentBlockSc.groupIndex = groupIndex;
-                        AddMemberToGroupArray(groupIndex, 2);
-                    }
-                    // if leftBlock does not have a group and current has a group
-                    else if (upBlockSc.groupIndex == 0 && currentBlockSc.groupIndex != 0)
-                    {
-                        upBlockSc.groupIndex = currentBlockSc.groupIndex;
-                        AddMemberToGroupArray(currentBlockSc.groupIndex, 1);
-                    }
-                    // if leftBlock has a group and current does not have a group
-                    else if (upBlockSc.groupIndex != 0 && currentBlockSc.groupIndex == 0)
-                    {
-                        currentBlockSc.groupIndex = upBlockSc.groupIndex;
-                        AddMemberToGroupArray(currentBlockSc.groupIndex, 1);
-                    }
-                    // if both have a group
-                    else if (upBlockSc.groupIndex != 0 && currentBlockSc.groupIndex != 0)
-                    {
-                        SetPreviousGroupIndex(upBlockSc.groupIndex, currentBlockSc.groupIndex);
-                    }
-                }
-
-            }
-        }
-        SetGroupCounts();
+        Invoke("SetBlocksGroupIndexes", 0.1f);
     }
 
     private void SetBlocksGroupIndexes()
@@ -276,8 +189,7 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
-
-        SetGroupCounts();
+        SetIcons();
     }
 
     void AddMemberToGroupArray(int aa, int count)
@@ -316,21 +228,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void SetGroupCounts()
-    {
-        for (int i = M - 1; i >= 0; i--)
-        {
-            for (int j = 0; j < N; j++)
-            {
-                if(blocksArray[i, j].GetComponent<BlockSc>().groupIndex != 0)
-                {
-                    //groupMembersCount[blocksArray[i, j].GetComponent<BlockSc>().groupIndex]++;
-                }                
-            }
-        }
-        SetIcons();
-    }
-
     void SetIcons()
     {
         for (int i = M - 1; i >= 0; i--)
@@ -358,19 +255,6 @@ public class GameManager : MonoBehaviour
                     }
                 }
             }
-        }
-        PrintGroupIndexes();
-    }
-
-    private void PrintGroupIndexes()
-    {
-        for (int i = 0; i < M; i++)
-        {
-            for (int j = 0; j < N; j++)
-            {
-                Debug.Log(blocksArray[i, j].GetComponent<BlockSc>().groupIndex + " ");
-            }
-            Debug.Log("-");
         }
     }
 
@@ -400,23 +284,25 @@ public class GameManager : MonoBehaviour
 
         if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 80))
         {
-            Debug.Log(hit.transform.gameObject.GetComponent<Renderer>().material.name);
-            print(hit.transform.gameObject.GetComponent<BlockSc>().groupIndex);
-
             clickedBlock = hit.transform.gameObject;
-
-            clickedBlock.GetComponent<BlockSc>().CheckAround();
-            //Destroy(clickedBlock);
-
+            if(clickedBlock.GetComponent<BlockSc>().groupIndex > 0)
+            {
+                DestroyClickedGroup(clickedBlock.GetComponent<BlockSc>().groupIndex);
+            }
         }
     }
-
-    private void DrawRays(Transform tr)
+    void DestroyClickedGroup(int destroyedGroupInd)
     {
-        Debug.DrawRay(tr.position, tr.right, Color.red);
-        Debug.DrawRay(tr.position, tr.up, Color.red);
-        Debug.DrawRay(tr.position, -tr.up, Color.green);
-        Debug.DrawRay(tr.position, -tr.right, Color.green);
+        for (int i = 0; i < M; i++)
+        {
+            for (int j = 0; j < N; j++)
+            {
+                if (blocksArray[i, j] != null && blocksArray[i, j].GetComponent<BlockSc>().groupIndex == destroyedGroupInd)
+                {
+                    Destroy(blocksArray[i, j].gameObject);
+                }
+            }
+        }
     }
 
     // Reload the current scene to restart the game
@@ -424,4 +310,82 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+
+    /*
+        private void SetBlocksGroupIndexes2()
+        {
+            for (int i = 0; i < M; i++)
+            {
+                for (int j = 0; j < N; j++)
+                {
+                    BlockSc currentBlockSc = blocksArray[i, j].GetComponent<BlockSc>();
+                    BlockSc upBlockSc = i != 0 ? blocksArray[i - 1, j].GetComponent<BlockSc>() : null;
+                    BlockSc rightBlockSc = j != 9 ? blocksArray[i, j + 1].GetComponent<BlockSc>() : null;
+
+                    if (j != 9 && currentBlockSc.colorIndex == rightBlockSc.colorIndex)
+                    {
+                        // if both do not have a group
+                        if (rightBlockSc.groupIndex == 0 && currentBlockSc.groupIndex == 0)
+                        {
+                            groupIndex++;
+                            IncreaseGroupMembersCountLength();
+                            rightBlockSc.groupIndex = groupIndex;
+                            currentBlockSc.groupIndex = groupIndex;
+                            AddMemberToGroupArray(groupIndex, 2);
+                        }
+                        // if leftBlock does not have a group and current has a group
+                        else if (rightBlockSc.groupIndex == 0 && currentBlockSc.groupIndex != 0)
+                        {
+                            rightBlockSc.groupIndex = currentBlockSc.groupIndex;
+                            AddMemberToGroupArray(currentBlockSc.groupIndex, 1);
+                        }
+                        // if leftBlock has a group and current does not have a group
+                        else if (rightBlockSc.groupIndex != 0 && currentBlockSc.groupIndex == 0)
+                        {
+                            currentBlockSc.groupIndex = rightBlockSc.groupIndex;
+                            AddMemberToGroupArray(currentBlockSc.groupIndex, 1);
+                        }
+                        // if both have a group
+                        else if (rightBlockSc.groupIndex != 0 && currentBlockSc.groupIndex != 0)
+                        {
+                            SetPreviousGroupIndex(rightBlockSc.groupIndex, currentBlockSc.groupIndex);
+                        }
+                    }
+
+                    if (i != 0 && currentBlockSc.colorIndex == upBlockSc.colorIndex)
+                    {
+                        // if both do not have a group
+                        if (upBlockSc.groupIndex == 0 && currentBlockSc.groupIndex == 0)
+                        {
+                            groupIndex++;
+                            IncreaseGroupMembersCountLength();
+                            upBlockSc.groupIndex = groupIndex;
+                            currentBlockSc.groupIndex = groupIndex;
+                            AddMemberToGroupArray(groupIndex, 2);
+                        }
+                        // if leftBlock does not have a group and current has a group
+                        else if (upBlockSc.groupIndex == 0 && currentBlockSc.groupIndex != 0)
+                        {
+                            upBlockSc.groupIndex = currentBlockSc.groupIndex;
+                            AddMemberToGroupArray(currentBlockSc.groupIndex, 1);
+                        }
+                        // if leftBlock has a group and current does not have a group
+                        else if (upBlockSc.groupIndex != 0 && currentBlockSc.groupIndex == 0)
+                        {
+                            currentBlockSc.groupIndex = upBlockSc.groupIndex;
+                            AddMemberToGroupArray(currentBlockSc.groupIndex, 1);
+                        }
+                        // if both have a group
+                        else if (upBlockSc.groupIndex != 0 && currentBlockSc.groupIndex != 0)
+                        {
+                            SetPreviousGroupIndex(upBlockSc.groupIndex, currentBlockSc.groupIndex);
+                        }
+                    }
+
+                }
+            }
+            SetGroupCounts();
+        }
+    */
 }
